@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+
+</head>
+<fieldset>
+<body style="text-align:center; background-color: beige;">
+    
+    <h1 style="color:orangered; background-color:black;margin:30px; padding:20px;">Pizza Order Form</h1>
+
+        <label for="numberOfPizzas"><h2>Number of Pizzas:</h2></label>
+        <input type="text" id="numberOfPizzas" name="numberOfPizzas" required placeholder="eg. 1,2">
+        <br>
+
+        <label for="PizzaSize"><h2>Size (Number of Slices):</h2></label>
+        <input type="text" id="PizzaSize" name="PizzaSize">
+
+        <br>
+
+        <label><h2>Shape:</h2></label>
+        <input type="radio" name="PizzaShape" value="round" checked><label>Round</label>
+        <input type="radio" name="PizzaShape" value="square"> <label>Square</label>
+
+        <br>
+
+        <label for="toppings"><h2>Toppings:</h2></label>
+        <input type="checkbox" name="Toppings" value="Pepperoni">
+        <label>Pepperoni</label>
+        <input type="checkbox" name="Toppings" value="Onion">
+        <label>Onion</label>
+        <input type="checkbox" name="Toppings" value="Olives">
+        <label>Olives</label>
+        <input type="checkbox" name="Toppings" value="Green Peppers">
+        <label>Green Peppers</label>
+
+        <br>
+
+        <label><h2>Crust Type:</h2></label>
+        <select >
+            <option value="Deep Dish">Deep Dish</option>
+            <option value="Thin Crust">Thin Crust</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <br>
+
+        <label><h2>Delivery Options:</h2></label>
+       <input type="checkbox" name="Delivery Option" value="takeOut">  <label>Take Out</label>
+        <input type="checkbox" name="Delivery Option" value="delivery"> <label> Delivery</label>
+       <input type="checkbox" name="Delivery Option" value="dine-In"> <label>dine-In</label>
+
+       <br><br>
+
+       <div>
+        <a href="Information Page.html">
+        <button style="padding:5px;">Place Order</button>
+    </a>
+</div>
+<br>
+<div>
+    <a href="Pizzeria.html">
+        <button style="padding:5px;">Go Back</button>
+    </a>
+</div>
+    </fieldset>
+    
+</body>
+</html>
+
+
